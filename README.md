@@ -1,4 +1,4 @@
-# Digit Recognition System
+# Handwritten Digit Recognition System
 This repository contains the code for a handwritten digit recognition system, implemented using TensorFlow and Keras. 
 
 The system includes a Jupyter Notebook ('handwritten digit recognition system .ipynb') for training the neural network model on the MNIST dataset, covering data loading, preprocessing, model definition, training, and evaluation.  It also includes a Python script ('app.py') that uses Streamlit to create a web application.  This application allows users to upload an image of a handwritten digit, and the application will predict the digit.  
