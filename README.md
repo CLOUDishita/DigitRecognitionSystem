@@ -7,6 +7,14 @@ The notebook loads training data, preprocesses it by separating features and lab
 
 The Streamlit application loads this trained model and defines a function to preprocess uploaded images by converting them to grayscale, resizing them, converting them to a NumPy array, reshaping, and normalizing them.  The main function sets up the application, allows image uploads, displays uploaded images, preprocesses them, predicts the digit using the model, and displays the prediction, handling any errors during processing.  
 
-The system requires Python 3.x, TensorFlow, Keras, Pandas, Matplotlib, scikit-learn, Streamlit, and PIL (Pillow). 
-
 To use the system, clone the repository, install the required packages using pip (e.g., 'pip install tensorflow pandas matplotlib scikit-learn streamlit Pillow'), and then either run the notebook to train the model (optionally, ensuring the Train.csv file is available) or run the 'app.py' script using 'streamlit run app.py' to launch the prediction application.
+
+## DATASET OBTAINED FROM:
+https://www.kaggle.com/datasets/bhavikjikadara/handwritten-digit-recognition
+
+## ALGORITHM USED:
+
+feedforward neural network ; https://www.geeksforgeeks.org/feedforward-neural-network/
+
+## LIBRARIES REQUIRED:
+The system requires Python 3.x, TensorFlow, Keras, Pandas, Matplotlib, scikit-learn, Streamlit, and PIL (Pillow). 
